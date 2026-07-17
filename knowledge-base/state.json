@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "next_question_number": 41,
+  "questions": [
+    {
+      "id": "FE-0001",
+      "order": 1,
+      "question": "AI 辅助开发的完整工作流，真实使用场景？",
+      "category": "系统设计与架构",
+      "tags": [
+        "AI辅助开发",
+        "工作流",
+        "真实场景"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:23+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0002",
+      "order": 2,
+      "question": "固化 AI 工作流的 case、方案、收益？",
+      "category": "系统设计与架构",
+      "tags": [
+        "AI工作流",
+        "方案设计",
+        "收益度量"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0003",
+      "order": 3,
+      "question": "能力如何封装为 Skill？触发条件？意图识别是否人工干预？",
+      "category": "系统设计与架构",
+      "tags": [
+        "Skill",
+        "触发条件",
+        "意图识别"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0004",
+      "order": 4,
+      "question": "多 Skill 串行/嵌套，依赖冲突、参数不兼容的容错设计？有无编排优先级调度？",
+      "category": "系统设计与架构",
+      "tags": [
+        "Multi-Skill",
+        "编排",
+        "容错",
+        "调度"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0005",
+      "order": 5,
+      "question": "AI 工作流上线后，全链路监控、异常告警，模型幻觉导致业务出错的兜底方案？",
+      "category": "系统设计与架构",
+      "tags": [
+        "可观测性",
+        "异常告警",
+        "模型幻觉",
+        "兜底"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0006",
+      "order": 6,
+      "question": "Agent 为什么选 LangChain，不直接调 OpenAI 接口？",
+      "category": "系统设计与架构",
+      "tags": [
+        "Agent",
+        "LangChain",
+        "技术选型"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0007",
+      "order": 7,
+      "question": "文案解析到自动剪辑全流程是否独立开发？优化点？Skill 定义与步骤划分？",
+      "category": "项目与行为面试",
+      "tags": [
+        "项目职责",
+        "自动剪辑",
+        "Skill",
+        "流程拆分"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0008",
+      "order": 8,
+      "question": "为什么引入有限状态机？6 个核心状态、流转规则、transitions 实现？",
+      "category": "系统设计与架构",
+      "tags": [
+        "有限状态机",
+        "状态流转",
+        "transitions"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0009",
+      "order": 9,
+      "question": "状态幂等、防止任务重复执行的机制？",
+      "category": "系统设计与架构",
+      "tags": [
+        "幂等性",
+        "重复执行",
+        "任务状态"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0010",
+      "order": 10,
+      "question": "任务成功率 99.5% 的统计方式？每条任务是否标记状态？",
+      "category": "系统设计与架构",
+      "tags": [
+        "成功率",
+        "指标口径",
+        "任务状态"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0011",
+      "order": 11,
+      "question": "调度、工具编排、异步流程是否独立完成？",
+      "category": "项目与行为面试",
+      "tags": [
+        "项目职责",
+        "调度",
+        "工具编排",
+        "异步流程"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0012",
+      "order": 12,
+      "question": "使用什么大模型？调用成本如何管控？",
+      "category": "系统设计与架构",
+      "tags": [
+        "大模型",
+        "成本控制",
+        "模型选型"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:24+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0013",
+      "order": 13,
+      "question": "状态机卡死悬停、死循环的排查与熔断机制？",
+      "category": "系统设计与架构",
+      "tags": [
+        "状态机",
+        "死循环",
+        "故障排查",
+        "熔断"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0014",
+      "order": 14,
+      "question": "FFmpeg 剪辑 CPU/内存突增，Agent 动态限流、任务分片降级方案？",
+      "category": "性能优化",
+      "tags": [
+        "FFmpeg",
+        "资源治理",
+        "动态限流",
+        "分片",
+        "降级"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0015",
+      "order": 15,
+      "question": "切换国产大模型，提示词、工具调用逻辑的改动点？",
+      "category": "系统设计与架构",
+      "tags": [
+        "模型切换",
+        "提示词",
+        "工具调用",
+        "兼容性"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0016",
+      "order": 16,
+      "question": "海量积压场景，RabbitMQ 死信队列、延迟队列如何保障消费稳定性？",
+      "category": "系统设计与架构",
+      "tags": [
+        "RabbitMQ",
+        "死信队列",
+        "延迟队列",
+        "削峰"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0017",
+      "order": 17,
+      "question": "旧埋点深层组件嵌套传参的原因？",
+      "category": "React",
+      "tags": [
+        "埋点",
+        "prop-drilling",
+        "组件设计"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0018",
+      "order": 18,
+      "question": "为什么用 Context 优化埋点？全局还是组件级别？",
+      "category": "React",
+      "tags": [
+        "Context",
+        "埋点",
+        "作用域设计"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0019",
+      "order": 19,
+      "question": "优化后组件嵌套结构的变化？",
+      "category": "React",
+      "tags": [
+        "组件结构",
+        "Context",
+        "重构"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0020",
+      "order": 20,
+      "question": "新旧埋点并行改造，如何保证旧代码正常启动、线上无故障？",
+      "category": "前端工程化",
+      "tags": [
+        "埋点迁移",
+        "兼容性",
+        "灰度",
+        "回归"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0021",
+      "order": 21,
+      "question": "Context 跨组件频繁更新的重渲染问题，memo/useMemo/useCallback 落地细节？",
+      "category": "React",
+      "tags": [
+        "Context",
+        "memo",
+        "useMemo",
+        "useCallback",
+        "重渲染"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0022",
+      "order": 22,
+      "question": "大规模存量页面灰度上线新埋点，AB 分流策略、数据校验规则？",
+      "category": "测试与质量",
+      "tags": [
+        "灰度发布",
+        "AB实验",
+        "埋点",
+        "数据校验"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0023",
+      "order": 23,
+      "question": "AI 对话为什么优先 SSE 而非轮询？",
+      "category": "网络与协议",
+      "tags": [
+        "SSE",
+        "轮询",
+        "AI对话",
+        "技术选型"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0024",
+      "order": 24,
+      "question": "SSE 与 WebSocket 区别？能否独立实现聊天通信整套逻辑？",
+      "category": "网络与协议",
+      "tags": [
+        "SSE",
+        "WebSocket",
+        "聊天通信"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:25+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0025",
+      "order": 25,
+      "question": "SSE 返回的数据结构？",
+      "category": "网络与协议",
+      "tags": [
+        "SSE",
+        "EventStream",
+        "数据格式"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0026",
+      "order": 26,
+      "question": "断连自动重连策略，指数退避算法落地，断点续传如何补丢失文本？",
+      "category": "网络与协议",
+      "tags": [
+        "自动重连",
+        "指数退避",
+        "断点续传",
+        "消息可靠性"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0027",
+      "order": 27,
+      "question": "打字机逐字输出实现？渲染间隔设多少？",
+      "category": "JavaScript",
+      "tags": [
+        "打字机效果",
+        "定时调度",
+        "流式渲染"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0028",
+      "order": 28,
+      "question": "超长文本打字机卡顿，分片+异步队列优化方案？",
+      "category": "性能优化",
+      "tags": [
+        "长文本",
+        "分片",
+        "异步队列",
+        "渲染性能"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0029",
+      "order": 29,
+      "question": "音频可视化最终效果？处理后的数据格式？",
+      "category": "浏览器原理",
+      "tags": [
+        "音频可视化",
+        "WebAudio",
+        "数据格式"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0030",
+      "order": 30,
+      "question": "基于 FFT 的完整开发思路、技术选型依据？",
+      "category": "浏览器原理",
+      "tags": [
+        "FFT",
+        "WebAudio",
+        "音频分析",
+        "技术选型"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0031",
+      "order": 31,
+      "question": "频谱柱状高度如何适配不同屏幕尺寸？",
+      "category": "CSS 与视觉布局",
+      "tags": [
+        "频谱图",
+        "响应式",
+        "Canvas",
+        "尺寸适配"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0032",
+      "order": 32,
+      "question": "移动端后台锁屏音频采集中断，WebAudio 上下文异常捕获与重启？",
+      "category": "浏览器原理",
+      "tags": [
+        "移动端",
+        "WebAudio",
+        "AudioContext",
+        "异常恢复"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0033",
+      "order": 33,
+      "question": "FCP、LCP 通过什么方式采集？",
+      "category": "性能优化",
+      "tags": [
+        "FCP",
+        "LCP",
+        "PerformanceObserver",
+        "Web Vitals"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0034",
+      "order": 34,
+      "question": "首屏性能优化前后对比？为什么主动做性能埋点？",
+      "category": "性能优化",
+      "tags": [
+        "首屏性能",
+        "性能埋点",
+        "效果度量"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0035",
+      "order": 35,
+      "question": "页面滚动优化自研还是第三方库？",
+      "category": "性能优化",
+      "tags": [
+        "滚动性能",
+        "技术选型",
+        "第三方库"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:26+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0036",
+      "order": 36,
+      "question": "LCP 被大体积音频阻塞，预加载、分片加载落地方案？",
+      "category": "性能优化",
+      "tags": [
+        "LCP",
+        "音频加载",
+        "预加载",
+        "分片加载"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:27+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0037",
+      "order": 37,
+      "question": "Agent 和普通 Chatbot 的区别？",
+      "category": "系统设计与架构",
+      "tags": [
+        "Agent",
+        "Chatbot",
+        "概念对比"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:27+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0038",
+      "order": 38,
+      "question": "Agent 核心组成模块？",
+      "category": "系统设计与架构",
+      "tags": [
+        "Agent",
+        "规划",
+        "记忆",
+        "工具",
+        "执行"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:27+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0039",
+      "order": 39,
+      "question": "RAG+Agent 场景，检索幻觉、无关文档召回的重排与过滤优化？",
+      "category": "系统设计与架构",
+      "tags": [
+        "RAG",
+        "检索幻觉",
+        "重排",
+        "过滤"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:27+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    },
+    {
+      "id": "FE-0040",
+      "order": 40,
+      "question": "Multi-Agent 架构设计，分工策略、冲突协商机制如何落地？",
+      "category": "系统设计与架构",
+      "tags": [
+        "Multi-Agent",
+        "分工",
+        "冲突协商",
+        "架构设计"
+      ],
+      "source": "百度-AI Agent前端研发实习生面经",
+      "created_at": "2026-07-16T14:41:27+08:00",
+      "status": "queued",
+      "attempts": [],
+      "variants": [],
+      "last_asked_at": null,
+      "next_review_at": null
+    }
+  ],
+  "sessions": []
+}

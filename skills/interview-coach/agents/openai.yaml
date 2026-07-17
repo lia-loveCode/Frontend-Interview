@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端面试教练"
+  short_description: "持续记录前端面试题、量化评估作答并安排针对性复习训练"
+  default_prompt: "Use $interview-coach to record my interview questions and run a structured practice session."
