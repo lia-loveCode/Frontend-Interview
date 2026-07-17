@@ -16,7 +16,7 @@
 ## 在另一台电脑上使用
 
 ```bash
-git clone git@github.com:lia-loveCode/Frontend-Interview.git
+git clone https://github.com/lia-loveCode/Frontend-Interview.git
 cd Frontend-Interview
 python3 skills/interview-coach/scripts/kb.py init
 ```
